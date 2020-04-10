@@ -1,0 +1,52 @@
+﻿2019/08/24 15:35:59 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\Game\Desktop\GP\2DLV1\3DLv1_00\GameProgramming\GameProgramming.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CModel.cpp CSceneGame.cpp CSceneManager.cpp
+         CModel.cpp
+     1>CModel.cpp(18): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(21): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>CModel.cpp(49): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 'sscanf' の宣言を確認してください。
+     1>CModel.cpp(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>CModel.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>CModel.cpp(102): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 'sscanf' の宣言を確認してください。
+     1>CModel.cpp(111): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 'sscanf' の宣言を確認してください。
+     1>CModel.cpp(112): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 'sscanf' の宣言を確認してください。
+     1>CModel.cpp(113): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 'sscanf' の宣言を確認してください。
+     1>CModel.cpp(131): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(140): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(144): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(152): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(153): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(197): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>CModel.cpp(217): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         CSceneGame.cpp
+         CSceneManager.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Game\Desktop\GP\2DLV1\3DLv1_00\Release\GameProgramming.exe" /INCREMENTAL:NO /NOLOGO glew32.lib glfw3.lib glfw3dll.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Game\Desktop\GP\2DLV1\3DLv1_00\Release\GameProgramming.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Game\Desktop\GP\2DLV1\3DLv1_00\Release\GameProgramming.lib" /MACHINE:X86 /SAFESEH Release\CBox.obj
+         Release\CMaterial.obj
+         Release\CMatrix.obj
+         Release\CModel.obj
+         Release\CRectangle.obj
+         Release\CSceneGame.obj
+         Release\CSceneManager.obj
+         Release\CTriangle.obj
+         Release\CVector.obj
+         Release\Update.obj
+         Release\main.obj
+         コード生成しています。
+         コード生成が終了しました。
+         GameProgramming.vcxproj -> C:\Users\Game\Desktop\GP\2DLV1\3DLv1_00\Release\GameProgramming.exe
+     1>プロジェクト "C:\Users\Game\Desktop\GP\2DLV1\3DLv1_00\GameProgramming\GameProgramming.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.18
